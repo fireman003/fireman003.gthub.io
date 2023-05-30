@@ -1,0 +1,16 @@
+hasiči
+
+index - úvod - navigace, basic info, 
+
+napln práce - odkaz na vyjezdy
+
+nabor - odkaz na real stranku
+
+technika - uvod
+	stara technika 
+	moderni technika
+	specialni technika
+
+HZS libereckeho kraje
+
+HZS v zahraničí

@@ -1,33 +1,62 @@
-header{
-    height: 100px;
-    background-color: red;
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('font/Ubuntu-Regular.ttf') format('truetype');
 }
 
-ul{
-    list-style-type: none;
-    padding: 0;
+body {
+    font-family: 'Ubuntu';
     margin: 0;
+    padding: 0;
 }
+  
 
-li{
-    float:left;
-    padding: 2%;
-    height: 50%;
+header {
+    background-color: red;
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
-
-a{
+  
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+  
+nav a {
     color: white;
     text-decoration: none;
+    margin: 0 10px;
 }
 
-li:hover{
-    background-color: blue;
+.content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
 }
 
-.logo{
-    float: right;
-}
+@media screen and (min-width: 360px) and (max-width: 960px) {
+    header {
+      font-size: 24px;
+    }
 
-.logo:hover{
-    background-color: blue;
+    .content {
+      max-width: 600px;
+      margin: 10px auto;
+      padding: 0 10px;
+    }
+
+    .image-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 20px;
+      }
+
+      .image-container img {
+        width: 100%;
+        max-width: 300px;
+        margin: 10px;
+      }
 }
